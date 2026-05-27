@@ -18,8 +18,6 @@ jobs:
         run: python feed.py
       - name: Push repo
         run: |
-          git config user.name sayrolivares
-          git config user.email sayr.sando@gmail.com
           git add .
           git commit -m "Modified feed"
           git push
